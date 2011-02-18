@@ -1,0 +1,13 @@
+ami_host: localhost 
+ami_user: user 
+ami_pass: pass
+ami_event: true 
+ami_log_level: 'debug'
+
+channel: "SIP/1000@192.168.0.3"
+exten: ''
+priority: 1
+application: 'dial'
+context: 'dialer'
+timeout: 3000
+callerid: '123456789'
